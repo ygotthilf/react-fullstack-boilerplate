@@ -1,0 +1,28 @@
+{
+    "ecmaFeatures": {
+        "blockBindings": true,
+        "forOf": true,
+        "jsx": true,
+        "modules" : true,
+        "classes" : true,
+        "arrowFunctions" : true,
+        "defaultParams" : true,
+        "destructuring" : true,
+        "generators" : true,
+        "objectLiteralShorthandMethods" : true,
+        "objectLiteralShorthandProperties" : true,
+    },
+    "rules": {
+      "quotes" : [2, "single"],
+      "no-use-before-define" : [2, "nofunc"],
+      "curly" : [2, "multi"],
+      "react/jsx-uses-vars" : 1,
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+      "react"
+    ]
+}
